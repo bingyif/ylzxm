@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "functions": {
+    "api/scrape.js": {
+      "runtime": "nodejs18.x",
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/scrape",
+      "dest": "/api/scrape.js"
+    }
+  ]
+}
